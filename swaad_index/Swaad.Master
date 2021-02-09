@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Swaad.Master.cs" Inherits="swaad_index.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style="background-color:#333;"><br />
+    <h1 style="font-family:Merriweather Sans, sans-serif; color: #EFA52C; text-align:center; font-size:50px; text-shadow: 2px 2px white;">
+        SWAAD-E-HIND
+    </h1>
+    <h5 style="text-align:center; color:white; font-size:18px; text-shadow: 2px 2px 4px #EFA52C;">GEMS OF FOOD</h5><br />
+   
+    <nav>
+     <p align="center">
+       
+        <a href="index.aspx" style=" font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.aspx#about" class="scroll" style=" font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.aspx#gallery" class="scroll" style="font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="menu.aspx" class="scroll" style="font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <a href="booktable.aspx" class="scroll" style="font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">Book Table</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="checkres.aspx" class="scroll" style=" font-size:25px; font-family:Merriweather Sans, sans-serif; color: #EFA52C;">Check Reservation</a>
+     </p>
+	</nav> <br />
+        </div>
+
+    
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
